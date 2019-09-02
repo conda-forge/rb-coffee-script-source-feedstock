@@ -1,5 +1,5 @@
 {% set name = "coffee-script-source" %}
-{% set version = "1.11.1" %}
+{% set version = "1.12.2" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 096ee2a4c29e286077292da31675199cd7a0e9e308319e86410e01f42984da75
+  sha256: e12b16fd8927fbbf8b87cb2e9a85a6cf457c6881cc7ff8b1af15b31f70da07a4
 
 build:
   noarch: generic

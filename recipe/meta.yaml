@@ -1,5 +1,5 @@
 {% set name = "coffee-script-source" %}
-{% set version = "1.11.1" %}
+{% set version = "1.12.2" %}
 
 package:
   name: rb-{{ name|lower }}
